@@ -1,0 +1,3 @@
+datadog:
+  datadog:
+    apiKeyExistingSecret: dd-agent-key

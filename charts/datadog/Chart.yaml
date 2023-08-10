@@ -1,0 +1,8 @@
+apiVersion: v2
+name: datadog
+description: Deploys Datadog
+version: 0.1.0
+dependencies:
+  - name: datadog
+    version: v3.33.8
+    repository: https://helm.datadoghq.com
