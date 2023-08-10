@@ -1,0 +1,8 @@
+apiVersion: v2
+name: k8s-dashboard 
+description: Deploys Kubernetes Dashboard
+version: 0.1.0
+dependencies:
+  - name: kubernetes-dashboard
+    version: v7.0.3
+    repository: https://kubernetes.github.io/dashboard
