@@ -1,5 +1,3 @@
-# metallb:
-  # ...
 
 local:
   pools:

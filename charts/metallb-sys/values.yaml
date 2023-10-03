@@ -4,4 +4,4 @@ metallb:
   # mapping not found`; therefore CRDs have to be installed
   # manually. As a result, they are disabled here.
   crds:
-    enabled: false
+    enabled: true
