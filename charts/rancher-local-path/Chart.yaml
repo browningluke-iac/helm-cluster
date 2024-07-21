@@ -1,0 +1,4 @@
+apiVersion: v2
+name: rancher-local-path
+description: Configures rancher local path
+version: 0.1.0
