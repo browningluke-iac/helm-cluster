@@ -1,2 +1,2 @@
 # helm-cluster
-Help charts for all cluster utilities
+Helm charts for all cluster utilities
