@@ -1,0 +1,10 @@
+storage_classes:
+  - name: local-path
+    reclaimPolicy: Delete
+    nodePath: /var/lib/rancher/k3s/storage
+  - name: local-path-retain
+    reclaimPolicy: Retain
+    nodePath: /var/lib/rancher/k3s/storage
+  - name: local-retain-data0
+    reclaimPolicy: Retain
+    nodePath: /mnt/data0
