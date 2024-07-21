@@ -5,3 +5,10 @@ metallb:
   # manually. As a result, they are disabled here.
   crds:
     enabled: true
+
+  speaker:
+    tolerations:
+      - effect: NoSchedule
+        key: kubernetes.io/arch
+        operator: Equal
+        value: arm64
