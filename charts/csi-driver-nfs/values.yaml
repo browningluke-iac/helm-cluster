@@ -1,0 +1,8 @@
+csi-driver-nfs:
+  node:
+    tolerations:
+      - operator: "Exists" # this is the default value (in values.yaml)
+      - effect: NoSchedule
+        key: kubernetes.io/arch
+        operator: Equal
+        value: arm64
